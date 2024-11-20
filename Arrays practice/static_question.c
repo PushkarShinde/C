@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void swap(int *x, int *y){
     static int *temp;
     temp=x;
@@ -19,13 +21,14 @@ void printab(){
     printf("a= %d, b= %d\n",a,b);
 }
 
-main(){
+int main(){
     printab();
     printab();
+    return 0;
 }
 
 /*
-Output: 
+Output:
 a= 6, b= 3
 a= 15, b= 12
 */

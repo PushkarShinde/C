@@ -13,18 +13,13 @@ int strlen(char str[]){
 
 int main() {
     char c ='a';
-    int contains=0;
+    int count=0;
     char str[]="Pushkar";
     for(int i=0;i<strlen(str);i++){
         if(str[i]==c){
-            contains=1;
+            count++;
         }
     }
-    if(contains){
-    printf("it contains the  character.");
-    }
-    else{
-        printf("It doesn't contain the character.");
-    }
+    printf("%d",count);
     return 0;
 }

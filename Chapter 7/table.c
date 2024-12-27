@@ -12,6 +12,7 @@ int main() {
     {
         printf("%d x %d = %d\n",n,i+1,table[i]);
     }
-
     return 0;
 }
+
+// wow!

@@ -10,7 +10,7 @@ int main() {
     }
     for(int i=0;i<=3;i++){
         for(int j=0;j<2;j++){
-            printf("%d ",i,j,a[i][j]);
+            printf("The element a[%d][%d] is: %d\n",i,j,a[i][j]);
         }
         printf("\n");
     }

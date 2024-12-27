@@ -26,3 +26,5 @@ int main() {
     printarray(a,10);
     return 0;
 }
+// OH MY GOD !
+// wow!!!!
